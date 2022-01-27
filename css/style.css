@@ -93,6 +93,11 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 1350px) {
+  .container {
+    max-width: 1250px;
+  }
+}
 @media (max-width: 1250px) {
   .container {
     max-width: 1024px;
@@ -467,11 +472,6 @@ header .header_bottom .header_bottom_wrapper .navigation .item:first-child {
   padding-left: 0;
 }
 
-@media (max-width: 1350px) {
-  .header_bottom_wrapper {
-    max-width: 1250px;
-  }
-}
 @media (max-width: 1024px) {
   .header_bottom_wrapper .logo img {
     width: 150px;
